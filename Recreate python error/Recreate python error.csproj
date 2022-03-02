@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Recreate_python_error</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library.Python\Library.Python.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Common.Interfaces">
+      <HintPath>Common.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Library.DataProxy">
+      <HintPath>Library.DataProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Library.WPF.Utils">
+      <HintPath>Library.WPF.Utils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

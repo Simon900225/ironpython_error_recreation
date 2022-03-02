@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recreate python error", "Recreate python error\Recreate python error.csproj", "{AA76B7D6-E2A5-4315-90B9-B50ACD0D6019}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Python", "Library.Python\Library.Python.csproj", "{4CF79FE7-2E92-4CA8-BE43-DBA0946D309E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA76B7D6-E2A5-4315-90B9-B50ACD0D6019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA76B7D6-E2A5-4315-90B9-B50ACD0D6019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA76B7D6-E2A5-4315-90B9-B50ACD0D6019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA76B7D6-E2A5-4315-90B9-B50ACD0D6019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF79FE7-2E92-4CA8-BE43-DBA0946D309E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF79FE7-2E92-4CA8-BE43-DBA0946D309E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF79FE7-2E92-4CA8-BE43-DBA0946D309E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF79FE7-2E92-4CA8-BE43-DBA0946D309E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D8EB35B-3480-4A66-933B-1CC61347D3B6}
+	EndGlobalSection
+EndGlobal
